@@ -1,4 +1,3 @@
-require 'pry'
 class Wz2008::Import
   IMPORT = File.join(File.dirname(File.expand_path(__FILE__)), '../../data/original.tsv')
   ENGLISH = File.join(File.dirname(File.expand_path(__FILE__)), '../../data/english.tsv')
